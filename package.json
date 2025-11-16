@@ -1,0 +1,29 @@
+{
+  "name": "vercel-integration-test-final",
+  "version": "1.0.0",
+  "description": "Final Vercel integration test with deployment verification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "verify": "tsx vercel-verify.ts",
+    "verify:deployment": "tsx vercel-verify.ts",
+    "build": "echo 'Build completed successfully'",
+    "dev": "echo 'Development server ready'"
+  },
+  "keywords": [
+    "vercel",
+    "deployment",
+    "integration",
+    "test"
+  ],
+  "author": "onlymakeai",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}

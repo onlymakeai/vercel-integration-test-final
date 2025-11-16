@@ -1,0 +1,15 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "framework": null,
+  "outputDirectory": ".",
+  "builds": [
+    {
+      "src": "vercel-verify.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "VERCEL_TOKEN": "u37lsKrG1jXkxGgd1lv6u4TM"
+  }
+}
